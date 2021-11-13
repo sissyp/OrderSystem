@@ -1,4 +1,4 @@
-#include "p3180147-p3180082-p3180135-pizza2.h"
+#include "order_system.h"
 
 pthread_mutex_t lock_cooks; //mutex for the cooks
 pthread_cond_t  cond_cooks; //condition variable for cooks
